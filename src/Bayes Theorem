@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  // Define the prior probabilities
+  double P_sunny = 0.6; // Probability of sunny weather
+  double P_rainy = 0.4; // Probability of rainy weather
+
+  // Define the conditional probabilities
+  double P_play_tennis_sunny = 0.7; // Probability of playing tennis given sunny weather
+  double P_play_tennis_rainy = 0.2; // Probability of playing tennis given rainy weather
+
+  // Define the evidence
+  string weather = "rainy"; // Current weather
+
+  // Calculate the posterior probability
+  double P_play_tennis_given_weather = (P_play_tennis_sunny * P_sunny + P_play_tennis_rainy * P_rainy) / (P_sunny + P_rainy);
+
+  // Print the posterior probability
+  cout << "The probability of playing tennis given the weather \"" << weather << "\" is: " << P_play_tennis_given_weather << endl;
+
+  return 0;
+}
