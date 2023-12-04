@@ -1,3 +1,8 @@
+Nunez, Joshua
+Professor Yuen
+CS 131
+Dec 3, 2023
+
 Project Report: Bayes' Theorem: A Foundational Tool for Probabilistic Reasoning
 
 Introduction
@@ -35,3 +40,12 @@ Interpretability and explainability: Complex models can be difficult to interpre
 Conclusions
 Bayes' theorem stands as a cornerstone of probabilistic reasoning, providing a powerful tool for updating beliefs and making informed decisions based on new evidence. Despite its limitations, Bayes' theorem remains a valuable tool with diverse applications across various fields. Continued research and development will further enhance our understanding and utilization of Bayes' theorem, unlocking its potential to revolutionize probabilistic reasoning and decision-making.
 
+
+References
+Rosen, K. H. (2019). Discrete mathematics and its applications. McGraw-Hill Education. 
+
+GeeksforGeeks. (2023, November 27). Bayes theorem - statement, Formula, derivation, 
+examples &amp; faqs. GeeksforGeeks. https://www.geeksforgeeks.org/bayes-theorem/ 
+
+Bayes theorem. Bayes Theorem - an overview | ScienceDirect Topics. (n.d.). 
+https://www.sciencedirect.com/topics/mathematics/bayes-theorem 
